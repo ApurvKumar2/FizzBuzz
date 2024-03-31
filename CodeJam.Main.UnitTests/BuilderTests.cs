@@ -25,11 +25,11 @@ namespace CodeJam.Main.UnitTests
 
         [TestCase(1, "1")]
         [TestCase(2, "1 2")]
-        [TestCase(3, "1 2 fizz")]
-        [TestCase(4, "1 2 fizz 4")]
-        [TestCase(5, "1 2 fizz 4 buzz")]
-        [TestCase(10, "1 2 fizz 4 buzz fizz 7 8 fizz buzz")]
-        [TestCase(15, "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz")]
+        [TestCase(3, "1 2 Fizz")]
+        [TestCase(4, "1 2 Fizz 4")]
+        [TestCase(5, "1 2 Fizz 4 Buzz")]
+        [TestCase(10, "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz")]
+        [TestCase(15, "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz")]
         public void When_input_number_then_print_and_return_counted_string(int number, string expectedResult)
         {
             using (var sw = new StringWriter())

@@ -5,8 +5,8 @@ namespace CodeJam.Main
 {
     public class CodeJamCounter : ICounter
     {
-        private const string Fizz = "fizz";
-        private const string Buzz = "buzz";
+        private const string Fizz = "Fizz";
+        private const string Buzz = "Buzz";
         private const string Separator = " ";
 
         private readonly Predicate<int> _divisibleBy3 = i => i % 3 == 0;
