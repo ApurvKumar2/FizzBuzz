@@ -16,3 +16,9 @@ Nuget packages used are only for NUnit and its Adapter Test Runner.
 **Entry Point:** CodeJamCounter.cs 
 **Entry Test:** CodeJamCounterTests.cs
 **UML for Enterprise Architect Tool:** CodeJam.eapx
+
+## Problem Statement
+- Write a short program that prints each number from 1 to N on a new line.
+- For each multiple of 3, print "Fizz" instead of the number.
+- For each multiple of 5, print "Buzz" instead of the number.
+- For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
